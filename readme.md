@@ -1,3 +1,8 @@
+## Deploy youtube-dl in lambda function
+
+- This project attempts to deploy youtube-dl in lambda function. It uses [yt-dlp](https://github.com/yt-dlp/yt-dlp/archive/master.tar.gz)
+-
+
 ## Fix for issue -> ERROR: Unable to extract uploader id; please report this issue on https://yt-dl.org/bug
 
 - Install from master branch
