@@ -8,6 +8,7 @@
 - All you have to do is create a repository in ECR and push the docker image to the repository.
 - Then create a lambda function and select the "deploy from container image" option. Select the ECR repository and the image you pushed to the repository.
 - Ensure to set up the appropriate IAM role for the lambda function.
+- The downloaded audio is stored in the /tmp directory of you computer because that is the only directory that can store files in lambda function.
 
 ## Fix for issue -> ERROR: Unable to extract uploader id; please report this issue on https://yt-dl.org/bug
 
